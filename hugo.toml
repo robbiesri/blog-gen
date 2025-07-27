@@ -1,4 +1,15 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://robbiesri.github.io/'
+title = 'Render Chef'
 theme = 'risotto'
+copyright = "© Robert Srinivasiah."
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    
