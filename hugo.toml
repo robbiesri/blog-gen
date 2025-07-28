@@ -5,6 +5,9 @@ copyright = "© Robert Srinivasiah."
 languageCode = "en"
 DefaultContentLanguage = "en"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [menu]
 
   [[menu.main]]
